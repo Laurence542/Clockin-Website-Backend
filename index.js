@@ -68,7 +68,7 @@ mongoose.connect(process.env.MONGODB_URL, { useNewUrlParser: true, useUnifiedTop
 
 
 app.use(cookieParser());
-const PORT = process.env.PORT || 443;
+const PORT = process.env.PORT || 4000;
 
 app.use(authRoutes);
 app.use('/api', admin);
