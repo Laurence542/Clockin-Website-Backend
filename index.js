@@ -95,6 +95,6 @@ app.use(Authentication)
 app.use(AdminDepartment)
 app.use(AdminRole)
 
-app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Server running on http://138.199.196.134:${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
 });
